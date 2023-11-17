@@ -8,23 +8,24 @@
 
 
 <body>
- Jogos Olímpicos<br>
+ Minha idade em<br>
  <button id="click">Iniciar Contagem !</button>   
 </body>
 <script>
     var btn = document.getElementById("click");
     btn.addEventListener("click",function(){
-    document.write("Jogos Olímpicos ...");
+    document.write("Qual a idade teremos em ...");
     document.write('<br/>')
     document.write('<br/>')
 
- let contador = 1986;
- while(contador< 2030){
+ let ano = 2006
+ let nascimento = ano
+ while(ano < 2050 ){
 
-    document.write("Jogos Olímpicos"+contador + "");
+    document.write("No ano de"+ano +", eu vou ter "+ (ano-nascimento)+" anos!");
     document.write('<br/>')
 
-   contador = contador + 4;
+   ano = ano + 1;
 
 }  
 
